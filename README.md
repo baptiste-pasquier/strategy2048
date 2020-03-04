@@ -2,9 +2,7 @@
 
 Projet de résolution du jeu 2048.
 
-L'implémentation du jeu est celle de Xavier Dupré voir https://github.com/sdpython/pystrat2048
-
-Plusieurs stratégies ont été testées. 
+L'implémentation du jeu est celle de Xavier Dupré, voir https://github.com/sdpython/pystrat2048
 
 ## 1ère stratégie : tester un certain nombre de jeux aléatoires
 
