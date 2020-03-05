@@ -15,12 +15,12 @@ Pour chaque mouvement, tester plusieurs jeux aléatoires jusqu'à échec, et cho
 On regarde pour chaque mouvement le nombre de fusions possibles pour le maximiser. 
 Une version améliorée regarde à plus long terme, avec une profondeur définie, pour maximiser le nombre de fusions.
 
-## Stratégie finale : utilisation d'un score
+## Stratégie finale : utilisation d'une fonction de score
 
-On cherche à maximiser un score. Le score est fonction :
+On cherche à maximiser la fonction de score. Cette fonction dépend :
 
 * Du nombre de cases vides
-* De la ressemblance à un filtre, ce filtre favorisant les grands nombres sur les bords
+* De la ressemblance à un filtre, ce filtre favorisant les grands nombres sur les bords. 
 
 Une version améliorée regarde, pour chaque mouvement, plusieurs jeux successifs (profondeur définie) dans le but de maximiser le score final. 
 
