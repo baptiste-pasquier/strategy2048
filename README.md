@@ -24,7 +24,7 @@ On cherche à maximiser la fonction de score. Cette fonction dépend :
 
 Une version améliorée regarde, pour chaque mouvement, plusieurs jeux successifs (profondeur définie) dans le but de maximiser le score final. 
 
-Des fonctions de tests permettent de déterminer les différents paramètres numériques (coefficients dans la fonction de score, profondeur à atteindre dans l'arbre de recherche, nombre de chemins à parcourir dans l'arbre). L'utilisation du multiprocessing et du profiling ont permis de rendre plus rapides ces calculs. 
+Des fonctions de tests permettent de déterminer les différents paramètres numériques (coefficients dans la fonction de score, profondeur à atteindre dans l'arbre de recherche, nombre de chemins à parcourir dans l'arbre). L'utilisation du *multiprocessing* et du *profiling* ont permis de rendre ces calculs plus rapides. 
 
 ## Résultats 
 
