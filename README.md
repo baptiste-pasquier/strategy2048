@@ -22,7 +22,7 @@ On cherche à maximiser un score. Le score est fonction :
 * Du nombre de cases vides
 * De la ressemblance à un filtre, ce filtre favorisant les grands nombres sur les bords
 
-Une version amélioré regarde, pour chaque mouvement, sur plusieurs jeux (profondeur définie) dans le but de maximiser le score. 
+Une version améliorée regarde, pour chaque mouvement, plusieurs jeux successifs (profondeur définie) dans le but de maximiser le score final. 
 
 Des fonctions de tests permettent de déterminer les différents paramètres numériques (coefficients dans la fonction de score, profondeur à atteindre dans l'arbre de recherche, nombre de chemins à parcourir dans l'arbre). L'utilisation du multiprocessing et du profiling ont permis de rendre plus rapides ces calculs. 
 
