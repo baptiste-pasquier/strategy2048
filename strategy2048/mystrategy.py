@@ -199,7 +199,7 @@ def nextmovescorebest(game, state=None, moves=None):
     coeff1 = 64
     coeff2 = 4
     profondeur = 2    # profondeur dans l'arbre
-    nombre = 5        # nombre de chemin à parcourir dans l'arbre
+    nombre = 20        # nombre de chemin à parcourir dans l'arbre
 
     scores = 4 * [0]
     for d in range(0, 4):
