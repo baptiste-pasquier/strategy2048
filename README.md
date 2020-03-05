@@ -19,8 +19,8 @@ Une version améliorée regarde à plus long terme, avec une profondeur définie
 
 On cherche à maximiser la fonction de score. Cette fonction dépend :
 
-* Du nombre de cases vides
-* De la ressemblance à un filtre, ce filtre favorisant les grands nombres sur les bords. 
+* du nombre de cases vides ;
+* de la ressemblance à un filtre, ce filtre favorisant les grands nombres sur les bords. 
 
 Une version améliorée regarde, pour chaque mouvement, plusieurs jeux successifs (profondeur définie) dans le but de maximiser le score final. 
 
