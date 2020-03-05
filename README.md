@@ -4,6 +4,8 @@ Projet de résolution du jeu 2048.
 
 L'implémentation du jeu est celle de Xavier Dupré, voir https://github.com/sdpython/pystrat2048
 
+-----------------
+
 ## 1ère stratégie : tester un certain nombre de jeux aléatoires
 
 Pour chaque mouvement, tester plusieurs jeux aléatoires jusqu'à échec, et choisir le mouvement qui maximise la moyenne du score final.
@@ -26,6 +28,17 @@ Des fonctions de tests permettent de déterminer les différents paramètres num
 
 ## Résultats 
 
+On teste tout d'abord une stratégie purement aléatoire avec 20 essais. Le score maximal atteint est 128 avec une moyenne de 56,8. 
+Temps de calcul : 0.03 s
 
+<img src="resul_randomstrategy.png" width = 600/>
+
+
+On teste ensuite notre stratégie finale avec 20 essais. Le score maximal atteint est 2048 avec une moyenne de 1203,2. 20% des essais atteignent 2048. 
+Temps de calcul : 6 min
+
+<img src="resul_mystrategy.png" width = 600/>
+
+-----------------
 
 2019
