@@ -28,13 +28,13 @@ Des fonctions de tests permettent de déterminer les différents paramètres num
 
 ## Résultats 
 
-On teste tout d'abord une stratégie purement aléatoire avec 20 essais. Le score maximal atteint est 128 avec une moyenne de 56,8. 
+On teste tout d'abord une stratégie purement aléatoire avec 20 essais. Le score maximal atteint est de 128 avec une moyenne de 57. 
 Temps de calcul : 0.03 s
 
 <img src="resul_randomstrategy.png" width = 600/>
 
 
-On teste ensuite notre stratégie finale avec 20 essais. Le score maximal atteint est 2048 avec une moyenne de 1203,2. 20% des essais atteignent 2048. 
+On teste ensuite notre stratégie finale avec 20 essais. Le score maximal atteint est 2048 avec une moyenne de 1203. 20% des essais atteignent 2048. 
 Temps de calcul : 6 min
 
 <img src="resul_mystrategy.png" width = 600/>
