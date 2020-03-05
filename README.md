@@ -24,7 +24,7 @@ On cherche à maximiser un score. Le score est fonction :
 
 Une version amélioré regarde, pour chaque mouvement, sur plusieurs jeux (profondeur définie) dans le but de maximiser le score. 
 
-Des fonctions de tests permettent de déterminer les différents paramètres numériques (coefficients dans la fonction de score, profondeur à atteindre dans l'arbre de recherche, nombre de chemins à parcourir dans l'abre). L'utilisation du multiprocessing et du profiling ont permis de rendre plus rapides ces calculs. 
+Des fonctions de tests permettent de déterminer les différents paramètres numériques (coefficients dans la fonction de score, profondeur à atteindre dans l'arbre de recherche, nombre de chemins à parcourir dans l'arbre). L'utilisation du multiprocessing et du profiling ont permis de rendre plus rapides ces calculs. 
 
 ## Résultats 
 
