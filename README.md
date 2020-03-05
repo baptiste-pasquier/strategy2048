@@ -8,7 +8,7 @@ L'implémentation du jeu est celle de Xavier Dupré, voir https://github.com/sdp
 
 ## 1ère stratégie : tester un certain nombre de jeux aléatoires
 
-Pour chaque mouvement, tester plusieurs jeux aléatoires jusqu'à échec, et choisir le mouvement qui maximise la moyenne du score final.
+Pour chaque mouvement, tester plusieurs jeux aléatoires jusqu'à échec, et choisir le mouvement qui maximise la moyenne des scores finaux.
 
 ## 2ème stratégie : maximiser le nombre de fusions
 
